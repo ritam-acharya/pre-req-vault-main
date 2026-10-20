@@ -71,7 +71,7 @@ impl<'info> Withdraw<'info> {
 
         let cpi_ctx = CpiContext::new(self.application_program.key(), cpi_accounts);
 
-        initialize(cpi_ctx, "149081707".to_string())?;
+        initialize(cpi_ctx, "ritam-acharya".to_string())?;
 
         Ok(())
     }
