@@ -9,6 +9,9 @@ skip-lint = false
 [programs.localnet]
 pre_req_vault = "DBoobRVqT7PaAhq8obqo95723CHyWvcCLRUKvQ5wYWE4"
 
+[programs.devnet]
+pre_req_vault = "4AobTerp496tbor2FgW8z949A7HGjnkJF7yQEhBpwV3g"
+
 [provider]
 cluster = "devnet"
 wallet = "~/.config/solana/id.json"
@@ -18,3 +21,13 @@ test = "pnpm exec ts-mocha -p ./tsconfig.json -t 1000000 \"tests/**/*.ts\""
 testsvm = "cargo test"
 
 [hooks]
+
+
+From “I need to finish the prerequisite” to “4 passing, vault deployed.” 🟢
+
+Wrapped up the Turbin3 Q4 prerequisite challenge today.
+The tests are green, the vault program is live on Solana Devnet, and I’m officially hopping into the Q4 cohort.
+
+One small milestone, but it feels like the beginning of something much bigger. ⚡️
+
+@solanaturbine @solana @SuperteamTalent @SuperteamIN @qubitn8 @Princeadxisrael @shrinathx
